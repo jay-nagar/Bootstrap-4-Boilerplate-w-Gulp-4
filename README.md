@@ -40,7 +40,7 @@ Install project dependencies:
 $ npm install
 ```
 
-If something goes wrong, delete the ```sh node_modules ``` folder and run ```sh npm install ``` again.
+If something goes wrong, delete the ``` node_modules ``` folder and run ``` npm install ``` again.
 
 Now let’s make sure you also have Gulp installed globally:
 
