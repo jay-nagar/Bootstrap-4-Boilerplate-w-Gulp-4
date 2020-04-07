@@ -32,27 +32,28 @@ Basic is a responsive A Bootstrap 4.4.1 Boilerplate with Gulp 4, compatible with
 Download or clone the repository. After that, from the root of your download/clone:
 
 ```sh
-$ git clone https://github.com/akashnimare/foco/
-$ cd foco
+$ git clone https://github.com/jay-nagar/Bootstrap-4-Boilerplate-w-Gulp-4.git
 ```
-If you're on Debian or Ubuntu, you'll also need to install
-`nodejs-legacy`:
-
-Use your package manager to install `npm`.
-
-```sh
-$ sudo apt-get install npm nodejs-legacy
-```
+#### Install
 
 Install project dependencies:
 
 ```sh
 $ npm install
 ```
-Start the app:
+
+If something goes wrong, delete the ```sh node_modules ``` folder and run ```sh npm install ``` again.
+
+Now let’s make sure you also have Gulp installed globally:
 
 ```sh
-$ npm start
+$ npm install gulp -g
+```
+
+#### Start Server
+
+```sh
+$ gulp serve
 ```
 
 ### Build installers
